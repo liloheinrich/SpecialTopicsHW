@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<instance>
+    <info>
+        <dataset>Christofides and Eilon 1969 — Set E</dataset>
+        <name>E-n013-k04</name>
+    </info>
+    <network>
+        <nodes>
+            <node id="1" type="0"/>
+            <node id="2" type="1"/>
+            <node id="3" type="1"/>
+            <node id="4" type="1"/>
+            <node id="5" type="1"/>
+            <node id="6" type="1"/>
+            <node id="7" type="1"/>
+            <node id="8" type="1"/>
+            <node id="9" type="1"/>
+            <node id="10" type="1"/>
+            <node id="11" type="1"/>
+            <node id="12" type="1"/>
+            <node id="13" type="1"/>
+        </nodes>
+        <links symmetric="true">
+            <link tail="2" head="1">
+                <length>9.0</length>
+            </link>
+            <link tail="3" head="1">
+                <length>14.0</length>
+            </link>
+            <link tail="3" head="2">
+                <length>21.0</length>
+            </link>
+            <link tail="4" head="1">
+                <length>23.0</length>
+            </link>
+            <link tail="4" head="2">
+                <length>22.0</length>
+            </link>
+            <link tail="4" head="3">
+                <length>25.0</length>
+            </link>
+            <link tail="5" head="1">
+                <length>32.0</length>
+            </link>
+            <link tail="5" head="2">
+                <length>36.0</length>
+            </link>
+            <link tail="5" head="3">
+                <length>38.0</length>
+            </link>
+            <link tail="5" head="4">
+                <length>42.0</length>
+            </link>
+            <link tail="6" head="1">
+                <length>50.0</length>
+            </link>
+            <link tail="6" head="2">
+                <length>52.0</length>
+            </link>
+            <link tail="6" head="3">
+                <length>5.0</length>
+            </link>
+            <link tail="6" head="4">
+                <length>12.0</length>
+            </link>
+            <link tail="6" head="5">
+                <length>22.0</length>
+            </link>
+            <link tail="7" head="1">
+                <length>21.0</length>
+            </link>
+            <link tail="7" head="2">
+                <length>24.0</length>
+            </link>
+            <link tail="7" head="3">
+                <length>31.0</length>
+            </link>
+            <link tail="7" head="4">
+                <length>35.0</length>
+            </link>
+            <link tail="7" head="5">
+                <length>37.0</length>
+            </link>
+            <link tail="7" head="6">
+                <length>41.0</length>
+            </link>
+            <link tail="8" head="1">
+                <length>49.0</length>
+            </link>
+            <link tail="8" head="2">
+                <length>51.0</length>
+            </link>
+            <link tail="8" head="3">
+                <length>7.0</length>
+            </link>
+            <link tail="8" head="4">
+                <length>17.0</length>
+            </link>
+            <link tail="8" head="5">
+                <length>16.0</length>
+            </link>
+            <link tail="8" head="6">
+                <length>23.0</length>
+            </link>
+            <link tail="8" head="7">
+                <length>26.0</length>
+            </link>
+            <link tail="9" head="1">
+                <length>30.0</length>
+            </link>
+            <link tail="9" head="2">
+                <length>36.0</length>
+            </link>
+            <link tail="9" head="3">
+                <length>36.0</length>
+            </link>
+            <link tail="9" head="4">
+                <length>44.0</length>
+            </link>
+            <link tail="9" head="5">
+                <length>46.0</length>
+            </link>
+            <link tail="9" head="6">
+                <length>10.0</length>
+            </link>
+            <link tail="9" head="7">
+                <length>21.0</length>
+            </link>
+            <link tail="9" head="8">
+                <length>30.0</length>
+            </link>
+            <link tail="10" head="1">
+                <length>27.0</length>
+            </link>
+            <link tail="10" head="2">
+                <length>37.0</length>
+            </link>
+            <link tail="10" head="3">
+                <length>43.0</length>
+            </link>
+            <link tail="10" head="4">
+                <length>31.0</length>
+            </link>
+            <link tail="10" head="5">
+                <length>37.0</length>
+            </link>
+            <link tail="10" head="6">
+                <length>39.0</length>
+            </link>
+            <link tail="10" head="7">
+                <length>19.0</length>
+            </link>
+            <link tail="10" head="8">
+                <length>28.0</length>
+            </link>
+            <link tail="10" head="9">
+                <length>25.0</length>
+            </link>
+            <link tail="11" head="1">
+                <length>35.0</length>
+            </link>
+            <link tail="11" head="2">
+                <length>41.0</length>
+            </link>
+            <link tail="11" head="3">
+                <length>29.0</length>
+            </link>
+            <link tail="11" head="4">
+                <length>31.0</length>
+            </link>
+            <link tail="11" head="5">
+                <length>29.0</length>
+            </link>
+            <link tail="11" head="6">
+                <length>9.0</length>
+            </link>
+            <link tail="11" head="7">
+                <length>10.0</length>
+            </link>
+            <link tail="11" head="8">
+                <length>16.0</length>
+            </link>
+            <link tail="11" head="9">
+                <length>22.0</length>
+            </link>
+            <link tail="11" head="10">
+                <length>20.0</length>
+            </link>
+            <link tail="12" head="1">
+                <length>28.0</length>
+            </link>
+            <link tail="12" head="2">
+                <length>30.0</length>
+            </link>
+            <link tail="12" head="3">
+                <length>7.0</length>
+            </link>
+            <link tail="12" head="4">
+                <length>11.0</length>
+            </link>
+            <link tail="12" head="5">
+                <length>13.0</length>
+            </link>
+            <link tail="12" head="6">
+                <length>17.0</length>
+            </link>
+            <link tail="12" head="7">
+                <length>25.0</length>
+            </link>
+            <link tail="12" head="8">
+                <length>27.0</length>
+            </link>
+            <link tail="12" head="9">
+                <length>10.0</length>
+            </link>
+            <link tail="12" head="10">
+                <length>16.0</length>
+            </link>
+            <link tail="12" head="11">
+                <length>10.0</length>
+            </link>
+            <link tail="13" head="1">
+                <length>18.0</length>
+            </link>
+            <link tail="13" head="2">
+                <length>20.0</length>
+            </link>
+            <link tail="13" head="3">
+                <length>6.0</length>
+            </link>
+            <link tail="13" head="4">
+                <length>6.0</length>
+            </link>
+            <link tail="13" head="5">
+                <length>14.0</length>
+            </link>
+            <link tail="13" head="6">
+                <length>16.0</length>
+            </link>
+            <link tail="13" head="7">
+                <length>12.0</length>
+            </link>
+            <link tail="13" head="8">
+                <length>12.0</length>
+            </link>
+            <link tail="13" head="9">
+                <length>20.0</length>
+            </link>
+            <link tail="13" head="10">
+                <length>8.0</length>
+            </link>
+            <link tail="13" head="11">
+                <length>10.0</length>
+            </link>
+            <link tail="13" head="12">
+                <length>10.0</length>
+            </link>
+        </links>
+    </network>
+    <fleet>
+        <vehicle_profile type="0">
+            <number>4</number>
+            <departure_node>1</departure_node>
+            <arrival_node>1</arrival_node>
+            <capacity>6000.0</capacity>
+        </vehicle_profile>
+    </fleet>
+    <requests>
+        <request id="1" node="2">
+            <quantity>1200.0</quantity>
+        </request>
+        <request id="2" node="3">
+            <quantity>1700.0</quantity>
+        </request>
+        <request id="3" node="4">
+            <quantity>1500.0</quantity>
+        </request>
+        <request id="4" node="5">
+            <quantity>1400.0</quantity>
+        </request>
+        <request id="5" node="6">
+            <quantity>1700.0</quantity>
+        </request>
+        <request id="6" node="7">
+            <quantity>1400.0</quantity>
+        </request>
+        <request id="7" node="8">
+            <quantity>1200.0</quantity>
+        </request>
+        <request id="8" node="9">
+            <quantity>1900.0</quantity>
+        </request>
+        <request id="9" node="10">
+            <quantity>1800.0</quantity>
+        </request>
+        <request id="10" node="11">
+            <quantity>1600.0</quantity>
+        </request>
+        <request id="11" node="12">
+            <quantity>1700.0</quantity>
+        </request>
+        <request id="12" node="13">
+            <quantity>1100.0</quantity>
+        </request>
+    </requests>
+</instance>
