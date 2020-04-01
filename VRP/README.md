@@ -1,1 +1,1 @@
-This problem will require starter code that we're working on getting to you! Check back Friday April 10th for updated instructions.
+Starter code for this problem (which is question 6 on your homework) is now posted. Instructions for getting started can be found here: https://github.com/AdvancedAlgorithms/SpecialTopicsHW/blob/master/VRP/Vehicle_Routing_Problem.pdf.
