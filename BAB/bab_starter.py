@@ -13,7 +13,6 @@ class BBTreeNode():
         self.vars = vars
         self.constraints = constraints
         self.objective = objective
-        self.children = []
         self.prob = prob
 
     def __deepcopy__(self, memo):
