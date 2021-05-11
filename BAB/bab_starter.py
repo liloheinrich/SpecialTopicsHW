@@ -55,7 +55,7 @@ class BBTreeNode():
         Makes a child where xi <= floor(xi)
         '''
         n1 = self.deepcopy(self)
-        n1.prob.add_constraint(branch_var <= math.floor(branch_var)) # add in the new binary constraint
+        n1.prob.add_constraint(branch_var <= math.floor(branch_var)) # add in the new constraint
         n1.constraints = list(n1.constraints.values())
         return n1
 
@@ -64,7 +64,7 @@ class BBTreeNode():
         Makes a child where xi >= ceiling(xi)
         '''
         n2 = self.deepcopy(self)
-        n2.prob.add_constraint(branch_var >= math.ceil(branch_var)) # add in the new binary constraint
+        n2.prob.add_constraint(branch_var >= math.ceil(branch_var)) # add in the new constraint
         n2.constraints = list(n2.constraints.values())
         return n2
 
@@ -86,26 +86,24 @@ class BBTreeNode():
         bestres_final = bestres
         while len(heap) > 0:
             count, root = heap.pop()
-            try:
-                res = root.buildProblem().solve(solver='cvxopt')
-            except:
-                continue
+            try: res = root.buildProblem().solve(solver='cvxopt')
+            except: continue # infeasible solution
 
-            if res.value <= bestres_final: continue # less than optimal, cut branch
-            if root.is_integral(): # leaf node, found an integral solution!
+            if res.value <= bestres_final: continue # non-optimal, cut branch
+            if root.is_integral(): # leaf node, an integral solution
                 bestnode_vars = [i.value for i in root.vars]
                 bestres_final = res.value
-                continue
+                continue # reached the end of this branch
 
-            i = 0
-            while root.is_var_integral(root.vars[i]):
-                i += 1
+            i = 0 # find the first non-integral variable to branch
+            while root.is_var_integral(root.vars[i]): i += 1
 
             root_floor = root.branch_floor(root.vars[i])
             floor_prob = root_floor.buildProblem()
+            heap.append((next(counter), root_floor))
+
             root_ceil = root.branch_ceil(root.vars[i])
             ceil_prob = root_ceil.buildProblem()
-            heap.append((next(counter), root_floor))
             heap.append((next(counter), root_ceil))
 
         return bestres_final, bestnode_vars
