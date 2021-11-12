@@ -1,4 +1,7 @@
-# SpecialTopicsHW
+# Branch and Bound
+
+Advanced Algorithms, Spring 2021
+
 HW problems for the Integer Programming & Heuristic Algorithms Units
 
 Specifically, this repository includes:
